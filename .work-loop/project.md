@@ -27,7 +27,7 @@
 ## 7. PR
 
 - 원격은 **origin**(`git@github.com:bluleo78/test-project.git`), PR 대상 브랜치는 `main`, 도구는 `gh`.
-- 브랜치: `<커밋 타입>/<소문자 이슈 키>`(예: `feat/sbx-1`, `fix/sbx-1`). 커밋 타입은 feat·fix·docs·chore·test.
+- 브랜치: `<커밋 타입>/<소문자 이슈 키>`(예: `feat/ttp-1`, `fix/ttp-1`). 커밋 타입은 feat·fix·docs·chore·test.
 - PR 제목 `<이슈 키> <이슈 제목>`, 머지 커밋 제목 `merge: <이슈 키> <이슈 제목>`(`gh pr merge --merge`).
 - pre-push 게이트가 없으므로 검토자는 rebase 뒤 `sh test.sh` 를 직접 돌리고 통과할 때만 머지한다.
 
@@ -35,4 +35,4 @@
 
 개발한 PR 을 리뷰·머지하는 AI 팀장. 비어 있으면 PR 을 사람이 리뷰·머지한다.
 
-- username: (아직 없음 — AI 팀장 구성원을 만들면 여기에 적는다)
+- username: `teamleader@iacloud.kr`
